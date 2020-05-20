@@ -25,7 +25,7 @@ class LoginScreen extends Component {
     if (account === 'root' && password === 'root') {
       navigation.navigate('Tabs');
     } else {
-
+      toast.show('登录失败');
     }
   };
 
