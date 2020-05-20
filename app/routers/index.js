@@ -6,12 +6,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from '../screens/LoginScreen';
 import TabsScreen from './Tabs';
 
-
 const Stack = createStackNavigator();
 
 const Routers = () => (
   <NavigationContainer>
-    <Stack.Navigator initialRouteName='Tabs'>
+    <Stack.Navigator initialRouteName='Login'>
       <Stack.Screen name='Login' component={LoginScreen}/>
       <Stack.Screen name='Tabs' component={TabsScreen}/>
     </Stack.Navigator>
