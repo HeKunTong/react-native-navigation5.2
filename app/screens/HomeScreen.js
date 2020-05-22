@@ -8,7 +8,7 @@ class HomeScreen extends Component {
       <View style={{flex: 1, flexDirection: 'column'}}>
         <StatusBar/>
         <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-          <Text style={{fontSize: 18}}>home</Text>
+          <Text style={{fontSize: 18}}>宝贝，520快乐!</Text>
         </View>
       </View>
     );

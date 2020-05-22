@@ -3,8 +3,8 @@ export const tabBar = {
   inactiveTintColor: '#999',
   showIcon: true,
   labelStyle: {
-    fontSize: 12,
-    marginTop: 0,
+    fontSize: 14,
+    marginTop: 4,
     marginBottom: 0,
   },
   style: {

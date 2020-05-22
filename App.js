@@ -8,8 +8,14 @@
 
 import React, { Component } from 'react';
 import Routers from './app/routers';
+import Splash from 'react-native-splash-screen';
 
 class App extends Component {
+
+  componentDidMount() {
+    console.log(12);
+    Splash.hide();
+  }
 
   render() {
    return <Routers />;
