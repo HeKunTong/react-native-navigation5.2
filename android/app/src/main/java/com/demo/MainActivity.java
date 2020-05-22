@@ -1,9 +1,11 @@
 package com.demo;
 
+import android.os.Bundle; // here
+
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen;
 
-public class MainActivity extends ReactA        ctivity {
+public class MainActivity extends ReactActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
